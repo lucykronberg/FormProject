@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FormProject</title>
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+
+  <h1>Which SBHS Teacher Are You?</h1>
+  <p id = secondText><b>Answer the form below to find out!</b></p>
+  <br>
+  <h2>What is your favorite subject? (out of the options given)</h2>
+  <form action="/response">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="subject" value="CS" checked>
+      <label class="form-check-label">Computer Science</label>
+    </div>
+    <div class="form-check">"
+      <input type="radio" class="form-check-input"  name="subject" value="Math">
+      <label class="form-check-label">Math</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input"  name="subject" value="World History">
+      <label class="form-check-label">World History</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="subject" value="Art">
+      <label class="form-check-label">Art</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="subject" value="Gardening">
+      <label class="form-check-label">Gardening</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="subject" value="Science">
+      <label class="form-check-label">Science</label>
+    </div>
+    
+  
+
+<h2>What's your favorite catchphrase?</h2>
+
+<!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+<div class="custom-select" style="width:200px;">
+  <select name="catchphrase">
+    <option value="0">Select catchphrase:</option>
+    <option value="Math">Boo Yeah!</option>
+    <option value="World History">Lowkey sus</option>
+    <option value="Science">Skibidi Rizz Toilet</option>
+    <option value="CS">I don't have one</option>
+    <option value="Gardening">Nucking Futs</option>
+    <option value="Art">Guess what? Chicken Butt!!</option>
+  </select>
+</div>
+
+	
+   <br>
+   <h2>What's your favorite color?</h2>
+   <div class="form-check">
+      <input type="radio" class="form-check-input"  name="color" value="CS" checked>
+      <label class="form-check-label">Black or White or Silver</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="color" value="Math">
+      <label class="form-check-label">Red</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input"  name="color" value="World History">
+      <label class="form-check-label">Orange</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="color" value="Art">
+      <label class="form-check-label">Rainbow</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="color" value="Gardening">
+      <label class="form-check-label">Brown</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="color" value="Science">
+      <label class="form-check-label">Green or Blue</label>
+    </div>
+	
+	
+	 <br>
+	 <h2>What's your favorite food?</h2>
+   <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="CS" checked>
+      <label class="form-check-label" >Cookies</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Math">
+      <label class="form-check-label" >Pi</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="World History">
+      <label class="form-check-label">Corn, potatoes, or rice</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Art">
+      <label class="form-check-label">Anything as long as it looks pretty on the plate :)</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Gardening">
+      <label class="form-check-label">Fruits or Veggies</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Science">
+      <label class="form-check-label">Baked goods!</label>
+    </div>
+	
+	<h2>What's your favorite joke? (out of the ones given)</h2>
+
+<!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+<div class="custom-select" style="width:200px;">
+  <select name="catchphrase">
+    <option value="0">Select joke:</option>
+    <option value="Math">I lost an argument against a 90 degree angle. Turns out it was right.</option>
+    <option value="World History">Why were the early days of history called the Dark Ages? Because there were so many knights!</option>
+    <option value="Science">I would add a good chemistry joke in here, but all the good ones Argon.</option>
+    <option value="CS">How do robots eat pizza? One byte at a time.</option>
+    <option value="Gardening">What does zzub zzub? A bee flying backwards!</option>
+    <option value="Art">Did you see the display of still-life art? Eh, it wasn't very moving.</option>
+  </select>
+</div>
+
+<br>
+<h2>What's your favorite movie?</h2>
+
+<!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+<div class="custom-select" style="width:200px;">
+  <select name="catchphrase">
+    <option value="0">Select movie:</option>
+    <option value="Math">Good Will Hunting</option>
+    <option value="World History">Gladiator</option>
+    <option value="Science">Annihilation</option>
+    <option value="CS">The Matrix</option>
+    <option value="Gardening">The Lorax</option>
+    <option value="Art">Spider-Man Across the Spiderverse</option>
+  </select>
+</div>
+
+ <br>
+ <h2>What did you do over summer break?</h2>
+   <div class="form-check">
+      <input type="radio" class="form-check-input"  name="food" value="CS" checked>
+      <label class="form-check-label" >Worked, mostly</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Math">
+      <label class="form-check-label" >Fixed up motorcycles!</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input"  name="food" value="World History">
+      <label class="form-check-label">Went backpacking/hiking!</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Art">
+      <label class="form-check-label">Hung out with friends</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Gardening">
+      <label class="form-check-label">Spent time in nature</label>
+    </div>
+	 <div class="form-check">
+      <input type="radio" class="form-check-input" name="food" value="Science">
+      <label class="form-check-label">Took care of family/spent time with family</label>
+    </div>
+	
+	
+	<button type="submit" class="btn btn-primary mt-3">Submit</button>
+  
+   </form>
+
+</body>
+</html>
